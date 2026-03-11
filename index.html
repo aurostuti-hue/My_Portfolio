@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aurostuti Pani — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav-logo">AP<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">ML</div>
+    <div class="hero-content">
+      <p class="hero-tag reveal">[ AI / ML Engineer ]</p>
+      <h1 class="hero-name reveal">
+        Aurostuti<br/><span class="outline-text">Pani</span>
+      </h1>
+      <p class="hero-subtitle reveal">
+        Building intelligent systems — from deepfake detection to road damage analysis.<br/>
+        B.Tech CSE @ Centurion University · CGPA 8.8
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-ghost">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-scroll">scroll ↓</div>
+    <div class="hero-lines">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label">01 — About</div>
+      <div class="about-grid">
+        <div class="about-photo-wrap reveal">
+          <div class="about-photo-frame">
+            <img src="assets/photo.jpg" alt="Aurostuti Pani" onerror="this.parentElement.classList.add('no-photo')"/>
+            <div class="photo-placeholder">AP</div>
+          </div>
+          <div class="about-badge">
+            <span class="badge-num">8.8</span>
+            <span class="badge-label">CGPA</span>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <h2>Hey, I'm <span class="accent">Aurostuti</span> 👋</h2>
+          <p>
+            I'm a 3rd-year Computer Science undergrad with a deep passion for Artificial Intelligence and Machine Learning.
+            I love building real-world solutions — from detecting deepfake videos with 89% accuracy to predicting student dropouts using Random Forest classifiers.
+          </p>
+          <p>
+            I've also worked professionally as a Full Stack Development Intern at Epsum Labs, where I built REST APIs, responsive UIs, and React components.
+          </p>
+          <div class="about-chips">
+            <span class="chip">Machine Learning</span>
+            <span class="chip">Deep Learning</span>
+            <span class="chip">Computer Vision</span>
+            <span class="chip">Full Stack Dev</span>
+            <span class="chip">Python</span>
+          </div>
+          <div class="about-links">
+            <a href="https://github.com/" target="_blank" class="icon-link">GitHub ↗</a>
+            <a href="https://linkedin.com/" target="_blank" class="icon-link">LinkedIn ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label">02 — Skills</div>
+      <h2 class="section-heading reveal">Technical Arsenal</h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon">📊</div>
+          <h3>Data Analysis</h3>
+          <div class="skill-tags">
+            <span>Pandas</span><span>NumPy</span><span>Matplotlib</span>
+            <span>Seaborn</span><span>EDA</span><span>Data Cleaning</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">🤖</div>
+          <h3>Machine Learning</h3>
+          <div class="skill-tags">
+            <span>Regression</span><span>Classification</span>
+            <span>Feature Engineering</span><span>Scikit-learn</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">🧠</div>
+          <h3>Deep Learning</h3>
+          <div class="skill-tags">
+            <span>CNNs</span><span>Transfer Learning</span>
+            <span>TensorFlow</span><span>Keras</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">🌐</div>
+          <h3>Web Development</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>Django</span><span>Frappe</span>
+            <span>React JS</span><span>Bootstrap</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">🛠️</div>
+          <h3>Tools & Languages</h3>
+          <div class="skill-tags">
+            <span>Git</span><span>Jupyter</span><span>Postman</span>
+            <span>Python</span><span>SQL</span><span>Java</span><span>C</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label">03 — Projects</div>
+      <h2 class="section-heading reveal">What I've Built</h2>
+      <div class="projects-list">
+
+        <div class="project-card reveal featured">
+          <div class="project-meta">
+            <span class="project-date">Dec 2025 – Apr 2026</span>
+            <span class="project-badge">🏆 Best 3rd Year Project</span>
+          </div>
+          <h3>Deepfake Detection System</h3>
+          <p>A deep learning-based system to detect manipulated and deepfake videos by extracting spatial and temporal features using CNN architectures. Achieved <strong>89% detection accuracy</strong> on benchmark datasets.</p>
+          <div class="project-stack">
+            <span>Deep Learning</span><span>Computer Vision</span><span>TensorFlow</span>
+          </div>
+          <div class="project-stats">
+            <div class="stat"><span class="stat-num">89%</span><span class="stat-label">Accuracy</span></div>
+            <div class="stat"><span class="stat-num">CNN</span><span class="stat-label">Architecture</span></div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-meta">
+            <span class="project-date">Jul 2025 – Sep 2025</span>
+          </div>
+          <h3>Road Damage Detection System</h3>
+          <p>CNN-based model to detect potholes and surface cracks from road images. Applied data augmentation increasing dataset size by <strong>40%</strong>. Evaluated using precision, recall and confusion matrix.</p>
+          <div class="project-stack">
+            <span>Python</span><span>CNN</span><span>Image Processing</span>
+          </div>
+          <div class="project-stats">
+            <div class="stat"><span class="stat-num">+40%</span><span class="stat-label">Data via Augmentation</span></div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-meta">
+            <span class="project-date">Oct 2024 – Dec 2024</span>
+          </div>
+          <h3>Student Dropout Prediction System</h3>
+          <p>Predictive model to identify students at risk of academic dropout. Performed thorough EDA and feature engineering, achieving <strong>88% accuracy</strong> using a Random Forest classifier.</p>
+          <div class="project-stack">
+            <span>Machine Learning</span><span>Scikit-learn</span><span>Random Forest</span>
+          </div>
+          <div class="project-stats">
+            <div class="stat"><span class="stat-num">88%</span><span class="stat-label">Accuracy</span></div>
+            <div class="stat"><span class="stat-num">RF</span><span class="stat-label">Classifier</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-label">04 — Experience</div>
+      <h2 class="section-heading reveal">Work History</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Python & Full Stack Development Intern</h3>
+              <span class="timeline-date">Apr 2025 – Jun 2025</span>
+            </div>
+            <div class="timeline-company">Epsum Labs Pvt. Ltd. · Bhubaneswar</div>
+            <ul class="timeline-points">
+              <li>Worked with Python, Django and Frappe framework for backend development.</li>
+              <li>Built and tested REST APIs using Postman and JSON.</li>
+              <li>Developed responsive frontend interfaces using Bootstrap, CSS and JavaScript.</li>
+              <li>Implemented UI components using React JS and Preact JS.</li>
+            </ul>
+            <div class="timeline-stack">
+              <span>Python</span><span>Django</span><span>Frappe</span>
+              <span>React JS</span><span>Bootstrap</span><span>REST APIs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="achievements section" id="achievements">
+    <div class="container">
+      <div class="section-label">05 — Achievements</div>
+      <h2 class="section-heading reveal">Recognition</h2>
+      <div class="achievements-grid">
+        <div class="achievement-card reveal">
+          <div class="ach-icon">🏆</div>
+          <h3>Best 3rd Year Project</h3>
+          <p>Awarded for the Deepfake Detection System at Centurion University · 2025</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="ach-icon">📜</div>
+          <h3>Kaggle Data Science Certificate</h3>
+          <p>Certified in Data Science fundamentals by Kaggle</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label">06 — Contact</div>
+      <h2 class="section-heading reveal">Let's Connect</h2>
+      <p class="contact-sub reveal">Open to internships, projects, and collaborations in AI/ML and web development.</p>
+      <div class="contact-cards reveal">
+        <a href="mailto:aurostutipani12@gmail.com" class="contact-card">
+          <div class="contact-card-icon">✉</div>
+          <div>
+            <div class="contact-card-label">Email</div>
+            <div class="contact-card-value">aurostutipani12@gmail.com</div>
+          </div>
+        </a>
+        <a href="tel:+917978623437" class="contact-card">
+          <div class="contact-card-icon">📞</div>
+          <div>
+            <div class="contact-card-label">Phone</div>
+            <div class="contact-card-value">+91 7978623437</div>
+          </div>
+        </a>
+        <a href="https://github.com/" target="_blank" class="contact-card">
+          <div class="contact-card-icon">⌨</div>
+          <div>
+            <div class="contact-card-label">GitHub</div>
+            <div class="contact-card-value">View My Code</div>
+          </div>
+        </a>
+        <a href="https://linkedin.com/" target="_blank" class="contact-card">
+          <div class="contact-card-icon">💼</div>
+          <div>
+            <div class="contact-card-label">LinkedIn</div>
+            <div class="contact-card-value">Connect With Me</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed & built by <span class="accent">Aurostuti Pani</span> · 2025</p>
+      <p class="footer-sub">B.Tech CSE · Centurion University · Roll No. 230301120030</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
